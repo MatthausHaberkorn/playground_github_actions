@@ -9,7 +9,7 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name Set up Python
+    - name: Set up Python
       uses: actions/setup-python@master
       with:
         python version "3.x"
@@ -22,5 +22,3 @@ jobs:
 
     - name: Run Makefile
       run: make check
-
-
