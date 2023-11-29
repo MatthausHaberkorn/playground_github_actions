@@ -1,5 +1,5 @@
 name: Quality checks
-on: Push
+on: push
 jobs:
   qa:
     name: Checks
